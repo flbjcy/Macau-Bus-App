@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/toLogin/toLogin",
+    "pages/index/test",
+    "pages/index/index",
+    "pages/index/index2",
+    "pages/index/driverindex",
+    "pages/index/localindex",
+    "pages/index/line",
+    "pages/index/line_51A",
+    "pages/index/localline_51A",
+    "pages/index/localline",
+    "pages/my/index",
+    
+    "pages/my/info",
+    "pages/my/list",
+    "pages/my/fav",
+    "pages/info/index",
+    "pages/info/add",
+    "pages/info/choosebus",
+    "pages/info/edit",
+    "pages/notice/index"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f4de3b",
+    "navigationBarTitleText": "澳門公交巴士小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#ddc40b",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "出行",
+        "iconPath": "img/auto.png",
+        "selectedIconPath": "img/auto1.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "img/account.png",
+        "selectedIconPath": "img/account1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
